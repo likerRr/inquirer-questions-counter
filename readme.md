@@ -46,7 +46,9 @@ Array of inquirer [questions](https://github.com/SBoudrias/Inquirer.js#questions
 Type: `string`<br>
 Default: `{current}/{total} `
 
-Format of displayed counter.
+Format of displayed counter. Available variables:
+* `{current}` represent current question's number
+* `{total}` represents total amount of questions
 
 
 ## License

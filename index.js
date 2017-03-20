@@ -4,10 +4,10 @@ const defaultFormat = '{current}/{total} ';
 
 /**
  * Adds counter specified by format to all the questions
- * @param questions
- * @param format
+ * @param [questions]
+ * @param [format]
  */
-module.exports = (questions, format = defaultFormat) => {
+module.exports = (questions = [], format = defaultFormat) => {
 	const context = {
 		total: questions.length
 	};

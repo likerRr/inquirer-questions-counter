@@ -1,6 +1,10 @@
 import test from 'ava';
 import addCounter from './index';
 
+test('not throws if called without parameters', t => {
+	t.notThrows(() => addCounter());
+});
+
 test('string message', t => {
 	const q1 = {
 		type: 'input',

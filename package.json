@@ -1,6 +1,6 @@
 {
   "name": "inquirer-questions-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds counter to inquirer's questions",
   "license": "MIT",
   "repository": "likerRr/inquirer-questions-counter",
