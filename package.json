@@ -1,0 +1,32 @@
+{
+  "name": "inquirer-questions-counter",
+  "version": "1.0.0",
+  "description": "Adds counter to inquirer's questions",
+  "license": "MIT",
+  "repository": "likerRr/inquirer-questions-counter",
+  "author": {
+    "name": "Alexey Lizurchik",
+    "email": "al.lizurchik@gmail.com",
+    "url": "http://likerrr.ru/"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "inquirer",
+    "counter",
+    "questions",
+    "plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.18.0"
+  }
+}
