@@ -19,12 +19,12 @@ module.exports = (questions = [], format = defaultFormat) => {
 			const originalMessage = q.message;
 
 			q.message = (...args) => {
-				let msg = originalMessage(...args);
+				const msg = originalMessage(...args);
 
 				return formatMsg(msg, context, format);
 			};
 		} else {
-			// string
+			// String
 			q.message = formatMsg(q.message, context, format);
 		}
 	});
