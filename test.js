@@ -9,7 +9,7 @@ test('string message', t => {
 	const q1 = {
 		type: 'input',
 		name: 'name',
-		message: `What's your name?`,
+		message: `What's your name?`
 	};
 
 	addCounter([q1]);
@@ -22,7 +22,7 @@ test('function message', t => {
 	const q1 = {
 		type: 'input',
 		name: 'name',
-		message: session => `What's your ${session.val}?`,
+		message: session => `What's your ${session.val}?`
 	};
 
 	addCounter([q1]);
@@ -34,13 +34,13 @@ test('several messages', t => {
 	const q1 = {
 		type: 'input',
 		name: 'name',
-		message: `What's your name?`,
+		message: `What's your name?`
 	};
 
 	const q2 = {
 		type: 'input',
 		name: 'name',
-		message: `What's your email?`,
+		message: `What's your email?`
 	};
 
 	addCounter([q1, q2]);
@@ -53,7 +53,7 @@ test('custom format', t => {
 	const q1 = {
 		type: 'input',
 		name: 'name',
-		message: `What's your name?`,
+		message: `What's your name?`
 	};
 	const format = '{current} from {total}, ';
 
