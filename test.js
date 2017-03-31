@@ -62,6 +62,7 @@ test('custom format', t => {
 	t.is(q1.message, `1 from 1, What's your name?`);
 });
 
+/* eslint-disable ava/no-skip-test */
 test.skip(`don't change message of question which is not asked`, t => {
 	const q1 = {
 		type: 'input',
@@ -80,7 +81,7 @@ test.skip(`don't change message of question which is not asked`, t => {
 	const q3 = {
 		type: 'input',
 		name: 'name',
-		message: `What's your email?`,
+		message: `What's your email?`
 	};
 
 	addCounter([q1, q2, q3]);
